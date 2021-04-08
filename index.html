@@ -199,13 +199,15 @@
         <h1>Contact</h1>
         <h6>Let's work together</h6>
       </div>
-      <form action="" class="glass" data-aos="fade-up" data-aos-delay="300">
+      <form action="POST" data-netlify="true" class="glass" data-aos="fade-up" data-aos-delay="300">
         <label for="name">Name:</label>
         <input type="text" class="glass" id="name" name="name" placeholder="Enter your name..." required>
         <label for="email">Email:</label>
         <input type="email" class="glass" id="email" name="email" placeholder="Enter your email..." required>
         <label for="message">Message:</label>
         <textarea name="message" class="glass" id="subject" cols="10" rows="10"></textarea>
+        <input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7">
+        <div data-netfliy-recaptcha="true"></div>
         <input type="submit" class="glass" value="Submit">
       </form>
     </div>

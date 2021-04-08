@@ -707,6 +707,11 @@ input[type="submit"]:hover {
 
 /* Media query for mobile */
 @media screen and (max-width: 400px) {
+  body {
+    background: url("img/bg.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+  
   .landing-text h1 {
     font-size: 4rem;
   }

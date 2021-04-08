@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Righteous Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+  <title>Joshua Villacorta</title>
+</head>
+<body>
+  <header>
+    <!-- Navbar -->
+    <div class="menu-toggler" data-aos="fade-bottom" data-aos-delay="300">
+      <div class="bar half start"></div>
+      <div class="bar"></div>
+      <div class="bar half end"></div>
+    </div>
+    <nav class="top-nav">
+      <ul class="nav-list">
+        <li>
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Home Section -->
+    <div class="landing-text">
+      <h1 data-aos="fade-left" data-aos-delay="300">Joshua Villacorta</h1>
+      <h6 data-aos="fade-right" data-aos-delay="600" class="glass" >Software Developer</h6>
+    </div>
+  </header>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+        <div class="about-heading">
+          <h1>About</h1>
+          <h6>Myself</h6>
+        </div>
+        <p>
+          Hi, I'm Joshua Villacorta and I'm a recent Computer Science graduate based in Suwanee, Georgia.
+          I enjoy building websites and web applications, as well as learning new technologies to improve as a developer.
+        </p>
+        <div class="social-media">
+          <ul class="nav-list">
+            <li>
+              <a href="https://www.linkedin.com/in/joshua-villacorta/" class="icon-link" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/joshv523" class="icon-link" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="Resume.pdf" class="icon-link" target="_blank">
+                <h2>Resume</h2>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-heading" data-aos="fade-top" data-aos-delay="300">
+        <h1>Projects</h1>
+        <h6>View some of my recent work</h6>
+      </div>
+      <!-- Project 1 -->
+      <div class="project-item glass" data-aos="fade-right" data-aos-delay="300">
+        <div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+          <img src="img/calendar.JPG" class="glass" alt="">
+        </div>
+        <div class="project-description" data-aos="fade-left" data-aos-delay="600">
+          <h1>JS Calendar App</h1>
+          <p>
+            Browser app where users can add events in a calendar. 
+            You can add an event by clicking on the desired day and enter the event info through a form.
+            The event gets saved on localStorage.
+          </p>
+          <ul class="project-technologies">
+            <li class="glass">HTML</li>
+            <li class="glass">CSS</li>
+            <li class="glass">JavaScript</li>
+          </ul>
+          <p class="project-links">
+            <a href="https://joshv523.github.io/jsCalendar/" target="_blank" class="cta">View Live</a> | 
+            <a href="https://github.com/joshv523/jsCalendar" target="_blank" class="cta">View Code</a>
+          </p>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-item glass" data-aos="fade-right" data-aos-delay="900">
+        <div class="project-description has-margin-left has-margin-right" data-aos="fade-left" data-aos-delay="600">
+          <h1>Robofriends</h1>
+          <p>
+            React app that displays multiple robots and their emails.
+            The user can use the search bar to look for a specific name and returns results instantly.
+          </p>
+          <ul class="project-technologies">
+            <li class="glass">React</li>
+          </ul>
+          <p class="project-links">
+            <a href="https://joshv523.github.io/robofriends/" target="_blank" class="cta">View Live</a> | 
+            <a href="https://github.com/joshv523/robofriends" target="_blank" class="cta">View Code</a>
+          </p>
+        </div>
+        <div class="project-img" data-aos="fade-left" data-aos-delay="1200">
+          <img src="img/robofriends.JPG" class="glass" alt="">
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="project-item glass" data-aos="fade-right" data-aos-delay="1500">
+        <div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+          <img src="img/bg-generator.JPG" class="glass" alt="">
+        </div>
+        <div class="project-description" data-aos="fade-left" data-aos-delay="600">
+          <h1>Simple Gradient Background Generator</h1>
+          <p>
+            An app where the user can generate a gradient background using two color input buttons.
+            You can also click on the random button to generate a random combination of two colors for the background.
+          </p>
+          <ul class="project-technologies">
+            <li class="glass">HTML</li>
+            <li class="glass">CSS</li>
+            <li class="glass">JavaScript</li>
+          </ul>
+          <p class="project-links">
+            <a href="https://joshv523.github.io/gradientBackgroundGenerator/" target="_blank" class="cta">View Live</a> | 
+            <a href="https://github.com/joshv523/gradientBackgroundGenerator" target="_blank" class="cta">View Code</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-heading" data-aos="fade-top" data-aos-delay="600">
+        <h1>Work Experience</h1>
+        <h6>Past and Current Jobs</h6>
+      </div>
+      <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+        <ul class="glass">
+          <li class="date" data-date="Nov 2020 - Jan 2021">
+            <h1>Costco Wholesale</h1>
+            <h2>
+              Service Deli Associate (Seasonal)
+            </h2>
+            <p>
+              Assisted deli clerks with the packaging and preparation of cold entrees to be served to customers.
+            </p>
+          </li>
+          <li class="date" data-date="May 2019 - Aug 2019">
+            <h1>InterContinental Hotels Group</h1>
+            <h2>
+              IT Asset Management Intern
+            </h2>
+            <p>
+              Worked with the asset management team in the cleanup of the tech asset database
+            </p>
+          </li>
+          <li class="date" data-date="Mar 2017 - May 2018">
+            <h1>UGA Dining Services</h1>
+            <h2>
+              Student Worker & Culinary Assistant
+            </h2>
+            <p>
+              Assisted chefs and dining staff with cooking and serving food, washing dishes, and cleaning the dining hall
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-heading" data-aos="fade-bottom" data-aos-delay="300">
+        <h1>Contact</h1>
+        <h6>Let's work together</h6>
+      </div>
+      <form action="" class="glass" data-aos="fade-up" data-aos-delay="300">
+        <label for="name">Name:</label>
+        <input type="text" class="glass" id="name" name="name" placeholder="Enter your name..." required>
+        <label for="email">Email:</label>
+        <input type="email" class="glass" id="email" name="email" placeholder="Enter your email..." required>
+        <label for="message">Message:</label>
+        <textarea name="message" class="glass" id="subject" cols="10" rows="10"></textarea>
+        <input type="submit" class="glass" value="Submit">
+      </form>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer class="copyright">
+    <div class="up" id="up">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <p>&copy; 2021 Joshua Villacorta</p>
+  </footer>
+  <!-- JS -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>

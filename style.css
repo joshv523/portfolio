@@ -591,7 +591,11 @@ input[type="submit"]:hover {
 /* Media Queries */
 @media screen and (max-width: 768px) {
   body {
-    background: url("img/bg4.jpg") no-repeat center fixed;
+    background-image: none;
+    background-color: #16162d;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 

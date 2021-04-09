@@ -360,9 +360,8 @@ li {
   margin-bottom: 0;
 }
 
-.profile-img {
-  width: 50rem;
-  flex: 1;
+.project-img img {
+  height: 30vh;
 }
 
 .project-description h1 {

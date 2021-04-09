@@ -730,6 +730,7 @@ input[type="submit"]:hover {
 /* Media query for mobile */
 @media screen and (max-width: 500px) {
   body {
+    background-image: none;
     background-color: #16162d;
     -webkit-background-size: cover;
     -moz-background-size: cover;

@@ -14,7 +14,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background: url("img/bg3.jpg") no-repeat center fixed;
+  background: url("img/bg4.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
@@ -156,6 +156,8 @@ li {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg, #02f7ff, #072353);
+  color: #fff;
 }
 
 .top-nav.open {
@@ -246,6 +248,8 @@ li {
   font-weight: 300;
   display: inline-block;
   padding: 20px;
+  background: linear-gradient(180deg, #02f7ff, #16162d);
+  color: #fff;
 }
 
 /* End landing page */
@@ -382,7 +386,9 @@ li {
   margin-left: 0;
   margin-top: 1rem;
   padding: 1rem;
-  opacity: 0.6;
+  opacity: 1;
+  background: linear-gradient(180deg, #02f7ff, #16162d);
+  color: #fff;
 }
 
 .project-links p {
@@ -585,7 +591,7 @@ input[type="submit"]:hover {
 /* Media Queries */
 @media screen and (max-width: 768px) {
   body {
-    background: url("img/bg3.jpg") no-repeat center fixed;
+    background: url("img/bg4.jpg") no-repeat center fixed;
     background-size: cover;
   }
 
@@ -720,8 +726,11 @@ input[type="submit"]:hover {
 /* Media query for mobile */
 @media screen and (max-width: 400px) {
   body {
-    background: url("img/bg3.jpg") no-repeat center fixed;
-    background-size: auto;
+    background-color: #16162d;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   
   .landing-text h1 {

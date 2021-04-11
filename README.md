@@ -7,3 +7,5 @@ Glassmorphism UI Design <br>
 Google Fonts <br>
 Font Awesome Icons <br>
 CSS Flexbox <br>
+jQuery <br>
+

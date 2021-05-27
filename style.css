@@ -242,11 +242,16 @@ li {
   color: #02f7ff;
 }
 
-.landing-text h6 {
-  font-family: 'Righteous', sans-serif;
+.sub-landing-text {
+  text-align: center;
+}
+
+.sub-landing-text h6 {
   font-size: 3rem;
-  font-weight: 300;
+  letter-spacing: 3rem;
   display: inline-block;
+  font-weight: 300;
+  font-family: 'Righteous', san-serif;
   padding: 20px;
   background: linear-gradient(180deg, #02f7ff, #16162d);
   color: #fff;
@@ -296,12 +301,41 @@ li {
   backdrop-filter: blur(30px);
 }
 
-.about-details p {
+.about-details .personal-intro {
   font-family: 'Verdana', sans-serif;
+  color: #fff;
+}
+
+.about-details .frontend-technologies,
+.about-details .backend-technologies,
+.about-details .databases {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-family: 'Verdana', sans-serif;
+  color: #02f7ff;
+}
+
+.about-details .frontend-technologies-list,
+.about-details .backend-technologies-list,
+.about-details .databases-list {
+  display: flex;
+  list-style: none;
+  color: #fff;
 }
 
 .social-media {
   margin-top: 5rem;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-media i {
@@ -333,12 +367,15 @@ li {
   backdrop-filter: blur(30px);
 }
 
-.nav-list h2 {
-  font-size: 3rem;
-  padding: 10px 10px;
+.social-media-links .resume-link {
+  font-size: 2rem;
 }
 
-.nav-list h2:hover {
+.social-media-links .resume-link h2 {
+  padding: 1rem;
+}
+
+.social-media-links h2:hover {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
@@ -588,6 +625,29 @@ input[type="submit"]:hover {
 /* End animations */
 
 /* Media Queries */
+
+@media (max-width: 1288px) {
+  .landing-text h1 {
+    font-size: 8rem;
+  }
+
+  .sub-landing-text {
+    padding: 10px;
+  }
+
+  .sub-landing-text h6 {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-list li {
+    margin: 2rem 0;
+  }
+}
 @media screen and (max-width: 768px) {
   body {
     background-image: none;
@@ -599,10 +659,14 @@ input[type="submit"]:hover {
   }
 
   .landing-text h1 {
-    font-size: 15rem;
+    font-size: 10rem;
   }
 
-  .landing-text h6 {
+  .sub-landing-text {
+    padding: 5px;
+  }
+
+  .sub-landing-text h6 {
     font-size: 1.7rem;
   }
 
@@ -663,7 +727,7 @@ input[type="submit"]:hover {
   }
 
   .landing-text h1 {
-    font-size: 8rem;
+    font-size: 5rem;
   }
 
   .landing-text h6 {

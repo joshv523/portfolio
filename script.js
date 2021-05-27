@@ -2,7 +2,7 @@
 $(document).ready(function () {
   // for navbar
   $('.menu-toggler').on('click', function () {
-    $(this).toggleClass('open');
+    $(this).toggleClass('active');
     $('.top-nav').toggleClass('open');
   });
   $('.top-nav .nav-link').on('click', function () {
